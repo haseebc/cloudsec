@@ -19,6 +19,13 @@ gem 'webpacker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  # From Azure resource manger ruby resources
+  # gem 'rake',               '~>11.1'
+  # gem 'rspec',              '~>3.4'
+  # gem 'dotenv',             '~>2.1'
+  # gem 'vcr',                '~>3.0'
+  # gem 'webmock',            '~>2.0'
+  # gem 'climate_control'
 end
 
 group :development, :test do
@@ -29,3 +36,7 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+# Gem files from resource-manager-ruby-resources
+# gem 'azure_mgmt_resources', '~>0.15.0'
+# gem 'haikunator',           '~>1.1'
